@@ -1,7 +1,7 @@
 # BotLink
 
 BotLink는 여러 Discord 봇 사이의 이벤트와 행동을 간단한 `.botlink` 문법으로 연결하기 위한 작은 실험용 언어/런타임입니다.
-
+또한 zip파일로 다운해 사용하시는걸 추천드립니다
 예:
 
 ```botlink
