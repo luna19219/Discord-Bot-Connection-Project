@@ -1,0 +1,12 @@
+# BotLink v0.1
+# "$ENV"는 실제 연결 키를 .env에서 가져온다는 뜻입니다.
+
+key "$ENV"
+
+when A.message == "!hello" {
+    B.send "A봇에서 !hello가 실행됐어!"
+}
+
+when A.message == "!ping" {
+    B.send "pong"
+}
